@@ -23,6 +23,14 @@ tr[data-href] {
   cursor: pointer;
 }
 
+th a {
+  color: #333;
+}
+
+th .glyphicon {
+  color: #ccc
+}
+
 .table-upper {
   margin: 0 0 14px 0;
 }
