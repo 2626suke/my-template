@@ -5,3 +5,34 @@
   font-size: 26px;
   font-weight: bold;
 }
+
+/* Contents */
+.main-contents {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 2px;
+}
+
+/* Table */
+.table {
+  border: 1px solid #ddd;
+}
+
+tr[data-href] {
+  cursor: pointer;
+}
+
+.table-upper {
+  margin: 0 0 14px 0;
+}
+
+.table-upper input[type="text"] {
+  height: 36px;
+  width: 150px;
+  vertical-align: bottom;
+}
+
+.pagination {
+  margin-top: -6px;
+}
