@@ -34,11 +34,6 @@ th .glyphicon {
 /* For Detail Table */
 .detail-table th {
   background-color: #f9f9f9;
-  width: 30%
-}
-
-.detail-table td {
-  width: 70%
 }
 
 /* Table Upper */
