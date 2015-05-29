@@ -7,4 +7,5 @@
 |詳細テーブル|:ok_woman:|
 |入力フォーム|:ok_woman:|
 |ログイン|:no_good:|
+|会員登録|:no_good:|
 |404|:no_good:|
