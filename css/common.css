@@ -31,6 +31,17 @@ th .glyphicon {
   color: #ccc
 }
 
+/* For Detail Table */
+.detail-table th {
+  background-color: #f9f9f9;
+  width: 30%
+}
+
+.detail-table td {
+  width: 70%
+}
+
+/* Table Upper */
 .table-upper {
   margin: 0 0 14px 0;
 }
@@ -46,15 +57,7 @@ th .glyphicon {
   width: 100%;
 }
 
-.detail-table th {
-  background-color: #f9f9f9;
-  width: 30%
-}
-
-.detail-table td {
-  width: 70%
-}
-
+/* Pagination */
 .pagination {
   margin-top: -6px;
 }
