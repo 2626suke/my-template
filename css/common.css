@@ -46,6 +46,15 @@ th .glyphicon {
   width: 100%;
 }
 
+.detail-table th {
+  background-color: #f9f9f9;
+  width: 30%
+}
+
+.detail-table td {
+  width: 70%
+}
+
 .pagination {
   margin-top: -6px;
 }
