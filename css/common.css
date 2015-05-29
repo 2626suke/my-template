@@ -37,8 +37,13 @@ th .glyphicon {
 
 .table-upper input[type="text"] {
   height: 36px;
-  width: 150px;
+  width: 100%;
   vertical-align: bottom;
+}
+
+.table-upper form {
+  border: 1px solid #ddd;
+  padding: 10px;
 }
 
 .pagination {
