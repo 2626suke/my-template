@@ -45,6 +45,7 @@ th .glyphicon {
   border: 1px dotted #ddd;
   padding: 10px 10px 5px 10px;
   background-color: #f9f9f9;
+  margin-bottom: 0;
 }
 
 .table-upper select {
@@ -55,4 +56,22 @@ th .glyphicon {
 /* Pagination */
 .pagination {
   margin-top: -6px;
+}
+
+/* Form */
+form {
+  margin-bottom: 22px;
+}
+
+.checkbox-inline label,
+.radio-inline label {
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+form h2 {
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  padding: 5px;
+  margin: 0 50px 15px;
 }

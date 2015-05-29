@@ -174,7 +174,7 @@
     <a href="#" class="btn btn-default"><span class="glyphicon glyphicon-pencil"></span> Edit</a>
     <a href="#" class="btn btn-default"><span class="glyphicon glyphicon-trash"></span> Del</a>
   </div>
-  <h2>基本情報</h2>
+  <h2 class="text-center">基本情報</h2>
   <table class="table table-bordered detail-table">
     <tr>
       <th class="col-xs-4 col-sm-3">ラインのタイトル</th>
@@ -189,7 +189,7 @@
       <td class="col-xs-8 col-sm-9">ラインの内容</td>
     </tr>
   </table>
-  <h2>詳細情報</h2>
+  <h2 class="text-center">詳細情報</h2>
   <table class="table table-bordered detail-table">
     <tr>
       <th class="col-xs-4 col-sm-3">ラインのタイトル</th>
@@ -207,6 +207,85 @@
   <div class="page-header">
     <h1>入力フォーム</h1>
   </div>
+  <form action="#" method="post" class="form-horizontal">
+    <h2 class="text-center">基本情報</h2>
+    <div class="form-group">
+      <label class="col-sm-3 control-label">ラベル <span class="label label-danger">必須</span></label>
+      <div class="col-sm-4">
+        <input type="text" class="form-control" placeholder="入力してください">
+        <div class="has-error">
+          <label class="control-label">ラベルがエラーです</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-sm-3 control-label">ラベル <span class="label label-default">任意</span></label>
+      <div class="col-sm-7">
+        <textarea class="form-control" rows="3" placeholder="入力してください"></textarea>
+        <div class="has-error">
+          <label class="control-label">ラベルがエラーです</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-sm-3 control-label">ラベル <span class="label label-default">任意</span></label>
+      <div class="col-sm-7">
+        <div>
+          <div class="checkbox-inline">
+            <label><input type="checkbox">選択肢A</label>
+          </div>
+          <div class="checkbox-inline">
+            <label><input type="checkbox">選択肢B</label>
+          </div>
+          <div class="checkbox-inline">
+            <label><input type="checkbox">選択肢C</label>
+          </div>
+        </div>
+        <div class="has-error">
+          <label class="control-label">ラベルがエラーです</label>
+        </div>
+      </div>
+    </div>
+    <h2 class="text-center">詳細情報</h2>
+    <div class="form-group">
+      <label class="col-sm-3 control-label">ラベル <span class="label label-default">任意</span></label>
+      <div class="col-sm-7">
+        <div>
+          <div class="radio-inline">
+            <label><input type="radio" name="a">選択肢A</label>
+          </div>
+          <div class="radio-inline">
+            <label><input type="radio" name="a">選択肢B</label>
+          </div>
+          <div class="radio-inline">
+            <label><input type="radio" name="a">選択肢C</label>
+          </div>
+        </div>
+        <div class="has-error">
+          <label class="control-label">ラベルがエラーです</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-sm-3 control-label">ラベル <span class="label label-default">任意</span></label>
+      <div class="col-sm-4">
+        <select class="form-control">
+          <option>選択して下さい</option>
+          <option>選択肢A</option>
+          <option>選択肢B</option>
+          <option>選択肢C</option>
+        </select>
+        <div class="has-error">
+          <label class="control-label">ラベルがエラーです</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-offset-3 col-sm-2">
+        <button type="submit" class="btn btn-primary btn-block">送信</button>
+      </div>
+    </div>
+  </form>
 </div>
 </body>
 </html>
