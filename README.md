@@ -6,6 +6,6 @@
 |一覧テーブル|:ok_woman:|
 |詳細テーブル|:ok_woman:|
 |入力フォーム|:ok_woman:|
-|ログイン|:no_good:|
-|会員登録|:no_good:|
+|ログイン|:ok_woman:|
+|会員登録|:ok_woman:|
 |404|:no_good:|
