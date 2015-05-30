@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>マイテンプレート</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/common.css" rel="stylesheet">
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/common.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">サイトネーム</a>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="text-center col-sm-offset-3 col-sm-6 col-xs-offset-1 col-xs-10 login-form">
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#login-tab" data-toggle="tab">ログイン</a></li>
+        <li><a href="#register-tab" data-toggle="tab">ユーザー登録</a></li>
+      </ul>
+      <div class="tab-content">
+        <div class="tab-pane active" id="login-tab">
+          <form action="#" method="post">
+            <div class="has-error">
+              <label class="control-label">ログインに失敗しました</label>
+            </div>
+            <div class="form-group has-error">
+              <input type="text" class="form-control" placeholder="ユーザー名">
+            </div>
+            <div class="form-group has-error">
+              <input type="text" class="form-control" placeholder="パスワード">
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary btn-block btn-lg">ログイン</button>
+            </div>
+          </form>
+        </div>
+        <div class="tab-pane" id="register-tab">
+          <form action="#" method="post">
+            <div class="form-group has-error text-left">
+              <input type="text" class="form-control" placeholder="ユーザー名">
+              <label class="control-label">ラベルがエラーです</label>
+            </div>
+            <div class="form-group has-error text-left">
+              <input type="text" class="form-control" placeholder="メールアドレス">
+              <label class="control-label">ラベルがエラーです</label>
+            </div>
+            <div class="form-group has-error text-left">
+              <input type="text" class="form-control" placeholder="パスワード">
+              <label class="control-label">ラベルがエラーです</label>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary btn-block btn-lg">ユーザー登録</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -80,3 +80,15 @@ form .divid-form {
   border-bottom: 1px solid #ddd;
   margin-bottom: 20px;
 }
+
+/* Login */
+.login-form {
+  background-color: #fff;
+  padding: 15px 15px 0;
+  border-radius: 2px;
+}
+
+.login-form .nav
+{
+  margin-bottom: 15px;
+}
