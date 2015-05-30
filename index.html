@@ -213,25 +213,21 @@
     </div>
     <div class="form-group">
       <label class="col-sm-3 control-label">ラベル <span class="label label-danger">必須</span></label>
-      <div class="col-sm-4">
+      <div class="col-sm-4 has-error">
         <input type="text" class="form-control" placeholder="入力してください">
-        <div class="has-error">
-          <label class="control-label">ラベルがエラーです</label>
-        </div>
+        <span class="text-danger">ラベルがエラーです</span>
       </div>
     </div>
     <div class="form-group">
       <label class="col-sm-3 control-label">ラベル <span class="label label-default">任意</span></label>
-      <div class="col-sm-7">
+      <div class="col-sm-7 has-error">
         <textarea class="form-control" rows="3" placeholder="入力してください"></textarea>
-        <div class="has-error">
-          <label class="control-label">ラベルがエラーです</label>
-        </div>
+        <span class="text-danger">ラベルがエラーです</span>
       </div>
     </div>
     <div class="form-group">
       <label class="col-sm-3 control-label">ラベル <span class="label label-default">任意</span></label>
-      <div class="col-sm-7">
+      <div class="col-sm-7 has-error">
         <div>
           <div class="checkbox-inline">
             <label><input type="checkbox">選択肢A</label>
@@ -243,9 +239,7 @@
             <label><input type="checkbox">選択肢C</label>
           </div>
         </div>
-        <div class="has-error">
-          <label class="control-label">ラベルがエラーです</label>
-        </div>
+        <span class="text-danger">ラベルがエラーです</span>
       </div>
     </div>
     <div class="row">
@@ -253,7 +247,7 @@
     </div>
     <div class="form-group">
       <label class="col-sm-3 control-label">ラベル <span class="label label-default">任意</span></label>
-      <div class="col-sm-7">
+      <div class="col-sm-7 has-error">
         <div>
           <div class="radio-inline">
             <label><input type="radio" name="a">選択肢A</label>
@@ -265,23 +259,19 @@
             <label><input type="radio" name="a">選択肢C</label>
           </div>
         </div>
-        <div class="has-error">
-          <label class="control-label">ラベルがエラーです</label>
-        </div>
+        <span class="text-danger">ラベルがエラーです</span>
       </div>
     </div>
     <div class="form-group">
       <label class="col-sm-3 control-label">ラベル <span class="label label-default">任意</span></label>
-      <div class="col-sm-4">
+      <div class="col-sm-4 has-error">
         <select class="form-control">
           <option>選択して下さい</option>
           <option>選択肢A</option>
           <option>選択肢B</option>
           <option>選択肢C</option>
         </select>
-        <div class="has-error">
-          <label class="control-label">ラベルがエラーです</label>
-        </div>
+        <span class="text-danger">ラベルがエラーです</span>
       </div>
     </div>
     <div class="row">
@@ -289,7 +279,7 @@
     </div>
     <div class="form-group">
       <div class="col-sm-offset-4 col-sm-4 col-xs-offset-1 col-xs-10 text-center">
-        <button type="submit" class="btn btn-primary btn-block btn-lg">送信</button>
+        <button type="submit" class="btn btn-primary btn-block">送信</button>
       </div>
     </div>
   </form>
